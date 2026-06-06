@@ -755,8 +755,8 @@ button { font-family: inherit; cursor: pointer; border: none; }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 
 .project-card {
@@ -769,16 +769,16 @@ button { font-family: inherit; cursor: pointer; border: none; }
 }
 
 .project-card:hover {
-  transform: translateY(-12px) scale(1.02);
+  transform: translateY(-6px) scale(1.01);
   border-color: rgba(5, 248, 248, 0.4);
   box-shadow: 
-    0 40px 80px rgba(0,0,0,0.5),
-    0 0 60px rgba(5, 248, 248, 0.15);
+    0 20px 40px rgba(0,0,0,0.5),
+    0 0 40px rgba(5, 248, 248, 0.15);
 }
 
 .project-image {
   position: relative;
-  aspect-ratio: 16/10;
+  aspect-ratio: 16/9;
   overflow: hidden;
 }
 
@@ -790,7 +790,7 @@ button { font-family: inherit; cursor: pointer; border: none; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -799,9 +799,9 @@ button { font-family: inherit; cursor: pointer; border: none; }
 }
 
 .project-image-placeholder span {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: var(--gray-600);
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .project-overlay {
@@ -821,15 +821,15 @@ button { font-family: inherit; cursor: pointer; border: none; }
 }
 
 .project-link {
-  width: 60px;
-  height: 60px;
+  width: 44px;
+  height: 44px;
   background: var(--white);
   color: var(--black);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   transition: all 0.3s ease;
 }
 
@@ -840,16 +840,16 @@ button { font-family: inherit; cursor: pointer; border: none; }
 }
 
 .project-content {
-  padding: 32px;
+  padding: 20px;
 }
 
 .project-category {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 6px 12px;
   background: rgba(5, 248, 248, 0.1);
   color: var(--accent);
   border-radius: 60px;
-  font-size: 0.75rem;
+  font-size: 0.6875rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -857,30 +857,34 @@ button { font-family: inherit; cursor: pointer; border: none; }
 }
 
 .project-title {
-  font-size: 1.5rem;
-  margin-bottom: 12px;
+  font-size: 1.125rem;
+  margin-bottom: 8px;
   color: var(--white);
   letter-spacing: -0.02em;
 }
 
 .project-description {
   color: var(--gray-500);
-  font-size: 1rem;
-  margin-bottom: 24px;
-  line-height: 1.8;
+  font-size: 0.875rem;
+  margin-bottom: 16px;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .project-tech {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
 .project-tech span {
-  padding: 8px 16px;
+  padding: 6px 10px;
   background: rgba(255,255,255,0.05);
-  border-radius: 8px;
-  font-size: 0.8125rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
   color: var(--gray-400);
 }
 
@@ -1089,6 +1093,12 @@ button { font-family: inherit; cursor: pointer; border: none; }
   transition: all 0.3s ease;
 }
 
+a.contact-item {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 .contact-item:hover {
   transform: translateX(8px);
 }
@@ -1174,6 +1184,31 @@ button { font-family: inherit; cursor: pointer; border: none; }
   right: 0;
   height: 2px;
   background: linear-gradient(90deg, transparent, var(--accent), transparent);
+}
+
+.form-status {
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.form-status--success {
+  background: rgba(5, 248, 248, 0.1);
+  border: 1px solid rgba(5, 248, 248, 0.3);
+  color: var(--accent);
+}
+
+.form-status--error {
+  background: rgba(255, 80, 80, 0.1);
+  border: 1px solid rgba(255, 80, 80, 0.3);
+  color: #ff6b6b;
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
 }
 
 .contact-form {
@@ -1356,7 +1391,8 @@ button { font-family: inherit; cursor: pointer; border: none; }
   }
 
   .projects-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .projects-header .section-title {
@@ -1529,19 +1565,20 @@ button { font-family: inherit; cursor: pointer; border: none; }
   }
 
   .projects-grid {
-    gap: 24px;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .project-content {
-    padding: 24px;
+    padding: 20px;
   }
 
   .project-title {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .project-description {
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
   }
 
   .skills-categories {
