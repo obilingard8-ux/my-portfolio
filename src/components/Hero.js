@@ -16,9 +16,9 @@ const Hero = () => {
             Available for opportunities
           </div>
           
-          <p className="hero-greeting">Hi, I'm</p>
+          <p className="hero-greeting">I'm</p>
           <h1 className="hero-title">
-            Obi Chibueze<span className="highlight">.</span>
+            Obi Vincent<span className="highlight">.</span>
           </h1>
           
           <div className="hero-roles">
