@@ -26,13 +26,20 @@ const About = () => {
           </h2>
           
           <p className="about-text">
-            I'm Obi Chibueze Vincent, but you can call me Lingard. At 24, I've dedicated myself 
-            to mastering the intersection of design and technology. My journey has taken me 
-            through frontend development, UI/UX design, graphic design, and digital marketing.
+            I'm Obi Chibueze Vincent, but you can call me Lingard. At 24, I bring 3 years of 
+            experience in the digital world, dedicated to mastering the intersection of design 
+            and technology. My journey has taken me through frontend development, UI/UX design, 
+            graphic design, and digital marketing.
           </p>
           
           <p className="about-text">
-            At Paysolo.io, I wore multiple hats—developing the entire frontend, crafting the 
+            I built complete branding for Optikal Dzani Zaro, an eyeglass and eye specialist 
+            brand in Bitola, North Macedonia. From visual identity to digital assets, I delivered 
+            a cohesive brand presence across every touchpoint.
+          </p>
+          
+          <p className="about-text">
+            At Paysolo.io, I wore multiple hats, developing the entire frontend, crafting the 
             UI/UX experience, managing social media presence, and executing email marketing 
             campaigns. I've also designed and managed social media content for Strivepay, 
             demonstrating my versatility across different platforms and industries.
@@ -41,7 +48,7 @@ const About = () => {
           <p className="about-text">
             I believe in staying ahead of the curve. That's why I've embraced AI tools like 
             ChatGPT, Gemini, and others to enhance my workflow and deliver innovative solutions. 
-            I'm not just adapting to the new age—I'm helping shape it.
+            I'm not just adapting to the new age. I'm helping shape it.
           </p>
 
           <div className="about-highlights">

@@ -54,8 +54,8 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'Shopify Optika — Full Branding',
-      description: 'Complete branding project for Shopify Optika. Developed brand identity, visual assets, and cohesive design across digital touchpoints.',
+      title: 'Optikal Dzani Zaro Full Branding',
+      description: 'Complete branding for Optikal Dzani Zaro, an eyeglass and eye specialist brand in Bitola, North Macedonia. Developed brand identity, visual assets, and cohesive design across digital touchpoints.',
       category: 'graphics',
       tech: ['Shopify', 'Branding', 'Photoshop', 'Canva'],
       icon: '🛍️',
