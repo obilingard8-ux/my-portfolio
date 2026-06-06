@@ -47,8 +47,9 @@ const About = () => {
           
           <p className="about-text">
             I believe in staying ahead of the curve. That's why I've embraced AI tools like 
-            ChatGPT, Gemini, and others to enhance my workflow and deliver innovative solutions. 
-            I'm not just adapting to the new age. I'm helping shape it.
+            ChatGPT, Gemini, and Claude AI to enhance my workflow, and I build projects with 
+            Cursor AI. I also use Kling AI for video generation and am at an average level with 
+            CapCut video editing. I'm not just adapting to the new age. I'm helping shape it.
           </p>
 
           <div className="about-highlights">

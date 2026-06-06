@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiCode, FiLayout, FiTool, FiCpu } from 'react-icons/fi';
+import { FiCode, FiLayout, FiTool, FiCpu, FiVideo, FiFilm } from 'react-icons/fi';
 import { 
   SiReact, 
   SiJavascript, 
@@ -10,11 +10,12 @@ import {
   SiAdobeillustrator,
   SiCanva,
   SiOpenai,
-  SiGooglegemini
+  SiGooglegemini,
+  SiAnthropic
 } from 'react-icons/si';
 import { BiMobileAlt, BiSearchAlt, BiPencil } from 'react-icons/bi';
 import { HiOutlineMail, HiOutlineLightBulb } from 'react-icons/hi';
-import { BsRobot } from 'react-icons/bs';
+import { PiCursor } from 'react-icons/pi';
 
 const Skills = () => {
   const skillCategories = [
@@ -54,8 +55,11 @@ const Skills = () => {
       skills: [
         { name: 'ChatGPT', level: 95, icon: <SiOpenai color="#00A67E" /> },
         { name: 'Gemini', level: 90, icon: <SiGooglegemini color="#8E75B2" /> },
+        { name: 'Claude AI', level: 90, icon: <SiAnthropic color="#D4A574" /> },
+        { name: 'Cursor AI', level: 85, icon: <PiCursor color="#05F8F8" /> },
+        { name: 'Kling AI', level: 80, icon: <FiVideo color="#05F8F8" /> },
+        { name: 'CapCut', level: 60, icon: <FiFilm color="#05F8F8" /> },
         { name: 'AI Prompting', level: 95, icon: <HiOutlineLightBulb color="#FFD700" /> },
-        { name: 'Manus AI', level: 85, icon: <BsRobot color="#05F8F8" /> },
       ],
     },
   ];
