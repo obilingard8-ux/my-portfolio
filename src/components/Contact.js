@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FiMail, FiSend } from 'react-icons/fi';
+import { FiMail, FiMapPin, FiSend } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const CONTACT_EMAIL = 'chibuezeobi.v@gmail.com';
@@ -78,6 +78,11 @@ const Contact = () => {
       value: '+234 7026137298',
       href: 'https://wa.me/2347026137298',
     },
+    {
+      icon: <FiMapPin />,
+      label: 'Location',
+      value: 'Lagos, Nigeria · Available worldwide',
+    },
   ];
 
   return (
@@ -126,7 +131,7 @@ const Contact = () => {
           <div className="contact-form-wrapper">
             <div className="contact-form-heading">
               <span>Project inquiry</span>
-              <p>Share a few details and I’ll get back to you.</p>
+              <p>Share a few details and I'll get back to you.</p>
             </div>
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-row">

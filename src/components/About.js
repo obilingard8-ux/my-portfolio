@@ -21,10 +21,10 @@ const About = () => {
   ];
 
   const highlights = [
-    { icon: <FiCode />, text: 'Product Architecture' },
-    { icon: <FiLayout />, text: 'Systems Design' },
-    { icon: <FiPenTool />, text: 'Strategic Direction' },
-    { icon: <FiTrendingUp />, text: 'Regulatory Workflows' },
+    { icon: <FiCode />, text: 'Full-Stack Development' },
+    { icon: <FiLayout />, text: 'Web & Product Design' },
+    { icon: <FiPenTool />, text: 'Shopify E-commerce' },
+    { icon: <FiTrendingUp />, text: 'Brand & Campaign Design' },
   ];
 
   return (

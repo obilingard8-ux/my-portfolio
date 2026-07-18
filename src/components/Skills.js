@@ -4,9 +4,9 @@ const Skills = () => {
   const skillCategories = [
     {
       number: '01',
-      title: 'UX & Interface Design',
-      description: 'Clear product experiences shaped from structure to final interface, balancing business goals with intuitive journeys and coherent systems.',
-      skills: ['Figma', 'Design systems', 'Prototyping', 'User research'],
+      title: 'Web, UX & Interface Design',
+      description: 'Responsive websites and clear product interfaces shaped from structure to final design, balancing business goals with intuitive journeys and coherent systems.',
+      skills: ['Web design', 'Figma', 'Design systems', 'Prototyping'],
       focus: 'Design',
     },
     {

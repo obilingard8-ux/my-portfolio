@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.jlingzdigital.online/sitemap.xml
+Host: https://www.jlingzdigital.online

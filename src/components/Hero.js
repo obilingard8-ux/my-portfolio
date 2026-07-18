@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero hero--light hero-editorial" id="home">
       <div className="container hero-editorial-shell">
         <div className="hero-editorial-meta">
-          <p>01 / Web & Product Designer</p>
+          <p>01 / Web Designer · Product Designer · Full-Stack Developer</p>
           <p>Lagos based / Working globally</p>
         </div>
 
