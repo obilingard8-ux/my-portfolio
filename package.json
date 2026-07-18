@@ -1,17 +1,16 @@
 {
   "name": "obi-chibueze-portfolio",
   "version": "1.0.0",
-  "description": "Professional portfolio for Obi Chibueze Vincent - Frontend Developer, UI/UX Designer & Graphic Designer",
+  "description": "Portfolio of Obi Chibueze Vincent, a web and product designer with full-stack development and Shopify experience",
   "private": true,
   "dependencies": {
+    "framer-motion": "^11.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "react-icons": "^5.0.1",
-    "framer-motion": "^11.0.3"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

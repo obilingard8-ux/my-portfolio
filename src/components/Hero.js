@@ -1,73 +1,67 @@
 import React from 'react';
-import { FiDownload, FiArrowRight } from 'react-icons/fi';
+import { FiArrowDownRight, FiArrowUpRight } from 'react-icons/fi';
 
 const Hero = () => {
-  const heroBgStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/real-hero-background.webp)`
-  };
-
   return (
-    <section className="hero" id="home">
-      <div className="hero-bg" style={heroBgStyle}></div>
-      <div className="container">
-        <div className="hero-content">
-          <div className="hero-badge">
-            <span className="dot"></span>
-            Available for opportunities
-          </div>
-          
-          <p className="hero-greeting">I'm</p>
-          <h1 className="hero-title">
-            Obi Vincent<span className="highlight">.</span>
-          </h1>
-          
-          <div className="hero-roles">
-            <span>Frontend Developer</span>
-            <span className="separator"></span>
-            <span>UI/UX Designer</span>
-            <span className="separator"></span>
-            <span>Graphic Designer</span>
-          </div>
-          
-          <p className="hero-description">
-            A passionate creative professional who transforms ideas into stunning digital experiences. 
-            I bring growth to every project through innovative design and clean code, 
-            leveraging cutting-edge tools including AI to deliver exceptional results.
-          </p>
-          
-          <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">
-              View My Work <FiArrowRight />
-            </a>
-            <a href="#contact" className="btn btn-secondary">
-              <FiDownload /> Download CV
-            </a>
-          </div>
-          
-          <div className="hero-stats">
-            <div className="stat-item">
-              <h3>3+</h3>
-              <p>Years Experience</p>
+    <section className="hero hero--light hero-editorial" id="home">
+      <div className="container hero-editorial-shell">
+        <div className="hero-editorial-meta">
+          <p>01 / Web & Product Designer</p>
+          <p>Lagos based / Working globally</p>
+        </div>
+
+        <div className="hero-editorial-main">
+          <div className="hero-editorial-copy">
+            <h1 className="hero-title">
+              <span>I turn digital ideas</span>
+              <span>into designed,</span>
+              <span className="highlight">working platforms.</span>
+            </h1>
+
+            <div className="hero-editorial-intro">
+              <p>
+                Web and product design with full-stack and Shopify delivery,
+                from interface direction to working infrastructure.
+              </p>
+              <div className="hero-buttons">
+                <a
+                  href="https://calendar.app.google/USmSJ2pT1PmjFqWU8"
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Discuss a project <FiArrowUpRight />
+                </a>
+                <a href="#projects" className="hero-work-link">
+                  View selected work <FiArrowDownRight />
+                </a>
+              </div>
             </div>
-            <div className="stat-item">
-              <h3>20+</h3>
-              <p>Projects Completed</p>
-            </div>
-            <div className="stat-item">
-              <h3>50+</h3>
-              <p>Happy Clients</p>
-            </div>
+
+            <ul className="hero-service-rail" aria-label="Core services">
+              <li>Product direction</li>
+              <li>Interface design</li>
+              <li>Full-stack delivery</li>
+              <li>Shopify commerce</li>
+            </ul>
+          </div>
+
+          <div className="hero-editorial-visual">
+            <figure className="hero-portrait">
+              <img src="/Lingard-image1.webp" alt="Obi Vincent, web and product designer" />
+              <figcaption>
+                <span>Obi Vincent</span>
+                <span>Design / Development</span>
+              </figcaption>
+            </figure>
+
           </div>
         </div>
-        
-        <div className="hero-image">
-          <div className="hero-image-wrapper">
-            <img 
-              src="/Lingard-image1.jpeg" 
-              alt="Obi Chibueze Vincent - Lingard"
-              className="hero-image-photo"
-            />
-          </div>
+
+        <div className="hero-evidence" aria-label="Selected experience">
+          <a href="#projects"><span>01</span><strong>Paysolo</strong><small>Ongoing fintech design partnership</small><FiArrowUpRight /></a>
+          <a href="#projects"><span>02</span><strong>Optika Dzani Zaro</strong><small>Shopify store delivered end to end</small><FiArrowUpRight /></a>
+          <div><span>03</span><strong>Independent practice</strong><small>Three years in design and development</small></div>
         </div>
       </div>
     </section>

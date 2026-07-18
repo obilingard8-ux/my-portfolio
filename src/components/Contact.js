@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FiMail, FiSend, FiInstagram } from 'react-icons/fi';
-import { FaWhatsapp, FaFacebook, FaBehance } from 'react-icons/fa';
+import { FiMail, FiSend } from 'react-icons/fi';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const CONTACT_EMAIL = 'chibuezeobi.v@gmail.com';
 
@@ -80,24 +80,15 @@ const Contact = () => {
     },
   ];
 
-  const socialLinks = [
-    { icon: <FaBehance />, url: 'https://www.behance.net/lingardobi', label: 'Behance' },
-    { icon: <FaFacebook />, url: 'https://www.facebook.com/share/1Hqdx7Lvy4/?mibextid=wwXIfr', label: 'Facebook' },
-    { icon: <FiInstagram />, url: '#', label: 'Instagram' },
-  ];
-
   return (
     <section className="contact section" id="contact">
       <div className="container">
         <div className="contact-wrapper">
           <div className="contact-info">
-            <h2>
-              Let's <span>Connect</span>
-            </h2>
+            <p className="contact-eyebrow">05 / Start a conversation</p>
+            <h2>Have a project<br />worth making?</h2>
             <p>
-              Have a project in mind or want to discuss opportunities? 
-              I'm always open to new challenges and collaborations. 
-              Let's create something amazing together!
+              I help businesses and product teams design and build websites, Shopify stores, and complete web platforms, with full-stack implementation available when needed. Share what you are building, where it currently stands, and what you need delivered.
             </p>
 
             <div className="contact-details">
@@ -130,23 +121,13 @@ const Contact = () => {
               })}
             </div>
 
-            <div className="social-links">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.url}
-                  className="social-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={social.label}
-                >
-                  {social.icon}
-                </a>
-              ))}
-            </div>
           </div>
 
           <div className="contact-form-wrapper">
+            <div className="contact-form-heading">
+              <span>Project inquiry</span>
+              <p>Share a few details and I’ll get back to you.</p>
+            </div>
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-row">
                 <div className="form-group">
@@ -182,7 +163,7 @@ const Contact = () => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  placeholder="How can I help you?"
+                  placeholder="Project title or brand name"
                   required
                 />
               </div>
@@ -203,7 +184,7 @@ const Contact = () => {
                 </p>
               )}
               <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
-                {isSubmitting ? 'Sending...' : 'Send Message'} <FiSend />
+                {isSubmitting ? 'Sending...' : 'Send Inquiry'} <FiSend />
               </button>
             </form>
           </div>
