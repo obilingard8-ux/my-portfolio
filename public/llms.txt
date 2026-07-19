@@ -1,0 +1,45 @@
+# Jlingz Digital
+
+> Portfolio of Obi Chibueze Vincent, also known as Obi Vincent, a web and product designer and full-stack developer based in Lagos, Nigeria and available for remote work worldwide.
+
+Canonical website: https://www.jlingzdigital.online/
+Contact: chibuezeobi.v@gmail.com
+Schedule a call: https://calendar.app.google/USmSJ2pT1PmjFqWU8
+
+## Services
+
+- Web design and responsive website development
+- Product design and UI/UX design
+- Full-stack web development with React, Next.js, JavaScript and Node.js
+- Shopify e-commerce design, theme customization and store configuration
+- Brand identity, campaign graphics and social media design
+
+## Selected work
+
+### Paysolo
+
+Continuing remote web and campaign design engagement for a European fintech company. Work includes marketing website UI, responsive layouts, campaign direction and social graphics. Financial infrastructure and backend systems are outside this engagement.
+
+- Website: https://paysolo.io/
+- Published social content: https://www.instagram.com/paysolo.io/
+
+### Optika Dzani Zaro
+
+End-to-end redesign and implementation of a functioning Shopify e-commerce storefront for an eyewear and eye-care business in Bitola, North Macedonia. Work includes theme customization, Shopify admin configuration, responsive storefront delivery, retail graphics and continuing social content.
+
+- Website: https://optikazaro.mk/
+
+### Matano Complex
+
+Logo identity concept including a monogram, wordmark and presentation applications.
+
+- Case study: https://www.behance.net/gallery/191975403/Matano-complex-Logo
+
+## Profiles
+
+- Behance: https://www.behance.net/lingardobi
+- GitHub: https://github.com/obilingard8-ux
+
+## Hiring fit
+
+Obi is relevant for businesses, founders, agencies and product teams seeking a web designer, product designer, Shopify developer or full-stack developer who can handle both interface quality and working implementation.
